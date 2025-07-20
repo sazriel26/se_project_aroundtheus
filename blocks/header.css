@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 74px;
+  margin: 0;
+  /* border-bottom: 1px solid #545454; */
+}
+
+.header__image {
+  width: 173px;
+  height: 33px;
+}
+
+.header__horizontal-line {
+  width: 100%;
+  border-width: 0 0 1px 0;
+  color: #545454;
+}
+
+@media screen and (max-width: 620px) {
+  .header {
+    height: 56px;
+  }
+  .header__image {
+    width: 126px;
+    height: 24px;
+    margin-left: 27px;
+  }
+}

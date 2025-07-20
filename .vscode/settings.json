@@ -1,6 +1,6 @@
 {
   "editor.formatOnSave": true,
-  "files.autoSave": "onFocusChange",
+  "files.autoSave": "off",
   "editor.hover.delay": 600,
   "github.copilot.enable": {
     "*": false,
