@@ -1,8 +1,6 @@
 .profile {
   display: flex;
-  /* flex-direction: row; */
   align-items: center;
-  /* padding-top: 40px; */
   margin: 0;
 }
 
@@ -17,9 +15,7 @@
     "title button"
     "description description";
   grid-template-columns: minmax(auto, 373px) auto;
-  /* grid-template-columns: 373px 42px; */
   align-items: baseline;
-  /* justify-items: center; */
 }
 
 .profile__title {
@@ -96,7 +92,6 @@
   }
 
   .profile__info {
-    /* grid-template-columns: minmax(auto, 239px) auto; */
     justify-items: center;
   }
 

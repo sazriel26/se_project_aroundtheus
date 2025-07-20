@@ -1,7 +1,6 @@
 .card {
   width: 282px;
   height: 361px;
-  /* border-radius: 10px; */
   margin: 0;
   padding: 0;
 }
@@ -16,7 +15,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* margin-bottom: auto; */
   height: calc(361px - 282px);
   border-radius: 0 0 10px 10px;
   background-color: white;
