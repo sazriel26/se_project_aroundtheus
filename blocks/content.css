@@ -1,3 +1,6 @@
 .content {
+  /* [https://css-tricks.com/couple-takes-sticky-footer/#aa-there-is-flexbox] */
+  flex: 1 0 auto;
+
   margin-top: 40px;
 }

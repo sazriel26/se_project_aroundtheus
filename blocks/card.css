@@ -1,11 +1,13 @@
 .card {
   width: 282px;
-  height: 361px;
+  /* height: 361px; */
   margin: 0;
   padding: 0;
 }
 
 .card__image {
+  /* Supersede default display of img which is inline-block and introduce a gap */
+  display: block;
   width: 282px;
   height: 282px;
   border-radius: 10px 10px 0 0;
@@ -15,17 +17,18 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: calc(361px - 282px);
+  /* height: calc(361px - 282px); */
   border-radius: 0 0 10px 10px;
   background-color: white;
   color: black;
+  padding: 7.5px 0;
 }
 
 .card__title {
   font-weight: 900;
   font-size: 24px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
